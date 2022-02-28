@@ -4,5 +4,11 @@ let persona = {
   getName: function () {
     return `${this.nombre} ${this.apellidos}`;
   },
+  domicilio: {
+    calle: "Madero #144",
+    colonia: "Centro",
+    cp: 28000,
+    municipio: "Colima",
+  },
 };
-console.log(persona.getName());
+console.log(persona.domicilio);
