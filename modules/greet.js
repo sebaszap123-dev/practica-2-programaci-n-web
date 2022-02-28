@@ -1,2 +1,2 @@
 let greet = () => console.log("Hello from the module");
-export { greet };
+module.exports = greet;
