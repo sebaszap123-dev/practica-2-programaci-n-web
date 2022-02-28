@@ -1,1 +1,2 @@
-import "./greet";
+let greet = require('./greet');
+greet();
