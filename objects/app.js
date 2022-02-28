@@ -10,5 +10,8 @@ let persona = {
     cp: 28000,
     municipio: "Colima",
   },
+  getAdress: function () {
+    return `Calle: ${this.domicilio.calle}, colonia: ${this.domicilio.colonia} CP: ${this.domicilio.cp}, ${this.domicilio.municipio}`;
+  },
 };
-console.log(persona.domicilio);
+console.log(persona.getAdress);
