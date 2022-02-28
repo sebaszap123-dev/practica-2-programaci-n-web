@@ -14,4 +14,4 @@ let persona = {
     return `Calle: ${this.domicilio.calle}, colonia: ${this.domicilio.colonia} CP: ${this.domicilio.cp}, ${this.domicilio.municipio}`;
   },
 };
-console.log(persona.getAdress);
+console.log(persona.getAdress());
